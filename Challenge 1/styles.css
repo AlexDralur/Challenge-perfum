@@ -1,0 +1,74 @@
+body{
+    background-color: #F3EAE3;
+    align-items: center;
+    max-width: max-content;
+    max-height: fit-content;
+    margin: auto;
+}
+button {    
+    color: #ffffff;
+    background-color: #3d8168;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 30px 130px 30px 140px;
+    cursor: pointer;
+}
+button:hover {
+    color: #ffffff;
+    background-color: #1a4031;
+}
+svg{
+    padding-right: 10px;
+}
+.image{
+    margin: none;
+    display: inline-block;
+    position: relative;
+}
+.text {
+    float: right;
+    height: 900px;
+    width: 480px;
+    background-color: white;
+    text-align: left;
+    padding-left: 60px;
+    color: #999BA8;
+    margin: 0;
+    position: relative;
+}
+.perfume{
+    font-size: 2rem;
+    letter-spacing: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-block-start: none;
+    margin-block-end: none;
+}
+.name {
+    font-family: 'Fraunces', serif;
+    color: #1C2329;
+    font-weight: 700;
+    font-size: 3.7rem;
+    margin-top: 15px;
+}
+.description{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 65px;
+}
+.current-price {
+    font-family: 'Fraunces', serif;
+    color: #8EAEA1;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.previous-price {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    position: absolute;
+    right: 130px;
+    bottom: 220px;
+    text-decoration-line: line-through;
+}
