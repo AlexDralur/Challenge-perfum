@@ -1,13 +1,20 @@
+:root{
+    --salmon: #F3EAE3;
+    --white: #ffffff;
+    --green: #3d8168;
+    --grey: #999BA8;
+    --darkblue: #1C2329;
+    --pastelgreen: #8EAEA1;
+    --darkgrey: #474E68;
+}
 body{
-    background-color: #F3EAE3;
-    align-items: center;
-    max-width: max-content;
-    max-height: fit-content;
-    margin: auto;
+    background-color: var(--salmon);
+    display : grid;
+    place-items: center;
 }
 button {    
-    color: #ffffff;
-    background-color: #3d8168;
+    color: var(--white);
+    background-color: var(--green);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     border-radius: 10px;
@@ -15,11 +22,14 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #ffffff;
+    color: var(--white);
     background-color: #1a4031;
 }
 svg{
     padding-right: 10px;
+}
+a{
+    color: var(--darkgrey)
 }
 .image{
     margin: none;
@@ -30,10 +40,10 @@ svg{
     float: right;
     height: 900px;
     width: 480px;
-    background-color: white;
+    background-color: var(--white);
     text-align: left;
     padding-left: 60px;
-    color: #999BA8;
+    color: var(--grey);
     margin: 0;
     position: relative;
 }
@@ -46,7 +56,7 @@ svg{
 }
 .name {
     font-family: 'Fraunces', serif;
-    color: #1C2329;
+    color: var(--darkblue);
     font-weight: 700;
     font-size: 3.7rem;
     margin-top: 15px;
@@ -60,7 +70,7 @@ svg{
 }
 .current-price {
     font-family: 'Fraunces', serif;
-    color: #8EAEA1;
+    color: var(--pastelgreen);
     font-weight: 700;
     font-size: 4rem;
 }
@@ -69,6 +79,10 @@ svg{
     font-size: 20px;
     position: absolute;
     right: 130px;
-    bottom: 220px;
+    bottom: 240px;
     text-decoration-line: line-through;
+}
+.attribution{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--darkgrey);
 }
